@@ -9,3 +9,5 @@ y = step_function(x)
 plt.plot(x, y)
 plt.ylim(-0.1, 1.1)
 plt.show()
+
+# 계단 함수

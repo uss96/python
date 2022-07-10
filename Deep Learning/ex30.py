@@ -4,8 +4,8 @@
 import sys, os
 
 sys.path.append(os.pardir)  # 부모 디렉터리의 파일을 가져올 수 있도록 설정
-from common.functions import *
-from common.gradient import numerical_gradient
+from common_bigdata.functions import *
+from common_bigdata.gradient import numerical_gradient
 
 
 class TwoLayerNet:
